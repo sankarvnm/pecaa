@@ -278,9 +278,9 @@ float:left;
 padding-left:40px;	
 background-position:20px 5px
 }
-.pages-wrapper {
+/*.pages-wrapper {
     width: 980px;
-}
+}*/
 
 /* categroy section*/
 
@@ -563,6 +563,18 @@ width:100%;
 	width:200px;
 	float:right;
 
+}
+
+.addNewUser {
+    background: url("img/btn_addNewUser.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    float: right;
+    font-size: 14px;
+    height: 30px;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 45px;
+    padding-top: 5px;
 }
 .ProductOptions .manageDateLeftBox {
 	float:left;
@@ -1820,8 +1832,7 @@ z-index:300;
 }
 /* for products page grid styles */
 /* Tiny Scrollbar */
-#products1 .viewport { height: 400px; overflow: hidden; position: relative; background:#CCC; border-left:1px solid #333333; }
-#products1 ul.ConLibra{border:0}
+#products1 .viewport { overflow: hidden; position: relative; background:#CCC; height:300px; }
 /* for products page grid styles */
 /* Tiny Scrollbar */
 #orders1 .viewport {height: 465px; }
@@ -1837,7 +1848,7 @@ z-index:300;
 	color: #3d9642;
 }
 
-
+.site-users .graphContainer{margin-bottom:10px;}
 .status .on {
 	background: url("img/bg_On.png") no-repeat scroll 0 0 transparent;
 	display: block;

@@ -10,3 +10,52 @@
 #scrollbar1 .viewport { width: 713px; height: 400px; overflow: hidden; position: relative; }
 #scrollbar2 .viewport { width: 100%; height: 70px; overflow: hidden; position: relative; }
 #commonScroll .overview{position: relative;}
+
+#reports1 .viewport { height:400px; width:auto; overflow: hidden; position: relative; }
+#reports1 .overview { width: auto; list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; border-right:0; }
+#users1 .shadows{margin-left:-10px;}
+#users1 .viewport{height:400px;}
+/* styles for horizontal scroll
+#horiScroll .viewport {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 767px;
+}
+#horiScroll .overview {
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: auto;
+}
+#horiScroll .scrollbar {
+    background: url("img/bg-scrollbar-track-x.png") no-repeat scroll 0 0 transparent;
+    clear: both;
+    height: 15px;
+    margin: 0 0 5px;
+    position: relative;
+}
+#horiScroll .track {
+    background: url("img/bg-scrollbar-trackend-x.png") no-repeat scroll 100% 0 transparent;
+    height: 15px;
+    position: relative;
+    width: 100%;
+}
+#horiScroll .thumb {
+    background: url("img/bg-scrollbar-thumb-x.png") no-repeat scroll 100% 50% transparent;
+    cursor: pointer;
+    height: 25px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: -5px;
+}
+#horiScroll .thumb .end {
+    background: url("img/bg-scrollbar-thumb-x.png") no-repeat scroll 0 50% transparent;
+    height: 25px;
+    overflow: hidden;
+    width: 5px;
+} */

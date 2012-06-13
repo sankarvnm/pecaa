@@ -3,7 +3,7 @@
 
 /* sankar buttons*/
 
-.main-nav ul li.payments{
+/*.main-nav ul li.payments{
 	background: url(img/btn_payments.png) no-repeat;
 	width: 120px;
 }
@@ -23,7 +23,7 @@
 	float:left;
 }
 
-/*.main-nav ul li.taxes{
+.main-nav ul li.taxes{
 	background: url(img/btn_taxes.png) no-repeat;
 	width: 93px;
 }
@@ -234,6 +234,7 @@ img{
 .couponWrapper .site-users {
     margin-bottom: 30px;
     width: 737px;
+
 }
 .cartCollumsBottom .site-users .title, .usersLeftPane .title {
     color: #999;
@@ -713,6 +714,7 @@ img{
     border-radius: 4px 4px 4px 4px;
     color: #FFFFFF;
     padding: 2px;
+	width:auto !important;
 }	
 
 .inputReadOnly{

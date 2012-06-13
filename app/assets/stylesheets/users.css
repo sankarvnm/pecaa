@@ -1,3 +1,4 @@
+
 .usersLeftPane span.checkbox {
     background: url("img/checkbox_trans.png") no-repeat scroll 0 0 transparent;
 }
@@ -58,6 +59,12 @@
 	width:768px;
 	margin-bottom:30px;
 }
+.usersLeftPane.ctrlUserLeft{
+	width:234px;
+}
+.site-users.ctrlSiteUsers{
+	width:685px;
+}
 .usersLeftPane{
 	width:233px;
 	padding-right: 10px;
@@ -71,8 +78,9 @@
 	font-size:20px;
 	color:#99aec0;
 	margin-bottom:10px;
+	min-height: 25px;
 }
-
+.usersLeftPane .title .briefTxt{font-size: 14px}
 .usersLeftPane .title .help{
 	display: inline-block;
 	background:url(img/helpIcon.png) no-repeat;
@@ -112,6 +120,7 @@
 	font-size:14px;
 	padding-top: 8px;
 }
+.site-users.ctrlSiteUsers ul.ConLibraHeads li{padding-top:2px; overflow:hidden; padding-bottom:10px}
 .site-users ul.ConLibraHeads li span{
 	border:0;
 	text-align: center;
@@ -120,8 +129,23 @@
 	width:300px;
 	display:inline-block;
 }
+.site-users.ctrlSiteUsers ul.ConLibraHeads span.userName,
+.site-users.ctrlSiteUsers ul.ConLibraHeads span.name,
+.site-users.ctrlSiteUsers ul.ConLibraHeads span.group,
+.site-users.ctrlSiteUsers ul.ConLibraHeads span.lastActivity {
+	width:150px;
+}
+.site-users.ctrlSiteUsers ul.ConLibraHeads span.created,
+.site-users.ctrlSiteUsers ul.ConLibraHeads span.role{width:70px}
+.ctrlSiteUsers #users1 .viewport {background:#000;}
+.ctrlSiteUsers #users1 .viewport .shadows{border-left:1px solid #666}
 .site-users ul.ConLibraHeads li span.group{
 	width:200px;
+	display:inline-block;
+	border:0;
+}
+.site-users ul.ConLibraHeads li span.role{
+	width:70px;
 	display:inline-block;
 	border:0;
 }
@@ -133,9 +157,6 @@
 }
 
 .site-users ul.ConLibra li span{
-	/*border-bottom: 1px solid #CCCCCC;
-	border-left: 1px solid #666666;
-	border-top: 1px solid #f0f0f0;*/
 	display:inline-block;
 	text-align: center;
 	margin:0;
@@ -174,30 +195,6 @@
 	border:0;
 }
 
-/*.site-users ul.ConLibra li:first-child{
-	border-left: 0;
-}
-.site-users ul.ConLibra li:first-child span{
-	border-top: 0;
-	background: -moz-linear-gradient(bottom,  #cccccc, #cccccc,  #cccccc,  #666666);
-	background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#cccccc), to(#cccccc), to(#cccccc));
-}
-.site-users ul.ConLibra li:last-child span{
-	border-bottom: 0;
-	background: -moz-linear-gradient(top,  #cccccc, #cccccc,  #cccccc,  #666666);
-	background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#cccccc), to(#cccccc), to(#666666));
-}
-.site-users ul.ConLibra li.selected:first-child span{
-	border-top: 0;
-	background: -moz-linear-gradient(bottom,  #cce3f2, #cce3f2,  #cce3f2,  #666666);
-	background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#cce3f2), to(#cce3f2), to(#cce3f2));
-}
-.site-users ul.ConLibra li.selected:last-child span{
-	border-bottom: 0;
-	background: -moz-linear-gradient(top,  #cce3f2, #cce3f2,  #cce3f2,  #666666);
-	background: -webkit-gradient(linear, left top, left bottom, from(#cce3f2), to(#cce3f2), to(#cce3f2), to(#666666));
-}*/
-
 .site-users ul.ConLibra li span.userName{
 	width:290px;
 	position: relative;
@@ -205,13 +202,27 @@
     padding-top: 5px;
     vertical-align: top;
 }
+.site-users.ctrlSiteUsers ul.ConLibra li span.userName,
+.site-users.ctrlSiteUsers ul.ConLibra li span.group,
+.site-users.ctrlSiteUsers ul.ConLibra li span.lastActivity
+{width:150px}
+.site-users.ctrlSiteUsers ul.ConLibra li span.lastActivity{border-right: 1px solid #999999;}
+.site-users.ctrlSiteUsers ul.ConLibra li span.created{width:70px}
 .site-users span.userName .status{
 	float:right;
 	border:0;
 	margin-top: -2px;
 }
+
 .site-users ul.ConLibra li span.group{
 	width:200px;
+	border-left: 1px solid #999999;
+	height: 19px;
+    padding-top: 5px;
+    vertical-align: top;
+}
+.site-users ul.ConLibra li span.role{
+	width:70px;
 	border-left: 1px solid #999999;
 	height: 19px;
     padding-top: 5px;
@@ -278,7 +289,7 @@
  .searchUser .addSearch{
 	display:inline-block;
 }
-.usersLeftPane .userPanelDevider{
+.userPanelDevider{
 	background:url(img/userPanelDevider.png) no-repeat center 0 transparent;
 	height:12px;
 	margin-bottom:10px;
@@ -344,6 +355,7 @@
     color:#FFFFFF;
     position: relative;
 }
+.usersLeftPane.ctrlUserLeft .userDetailPanel{ width: 233px;}
 .usersLeftPane .userDetailPanel.ordersLeft{
 	height:500px;
 }
