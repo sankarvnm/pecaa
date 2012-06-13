@@ -1,20 +1,21 @@
 @font-face {
-	font-family: 'helveticaPecaa';
-	src: url('font/helveticaneue-medium-webfont.ttf');
-	src: local('helveticaPecaa'), local('helvetica'), url('font/helveticaneue-medium-webfont.ttf') format('truetype');
+ font-family: 'helveticaPecaa';
+ src: url('font/helveticaneue-medium-webfont.ttf');
+ src: local('helveticaPecaa'), local('helvetica'), url('font/helveticaneue-medium-webfont.ttf') format('truetype');
 }
 body {
-    background: url("img/bg.gif") repeat scroll 0 0 transparent;
-    font-size: 12px;
-    font-family: 'helveticaPecaa', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-body textarea{resize:none;}
-a.button, button{
+	background: url("img/bg.gif") repeat scroll 0 0 transparent;
 	font-size: 12px;
-    font-family: 'helveticaPecaa', Arial, sans-serif;
+	font-family: 'helveticaPecaa', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body textarea {
+	resize:none;
+}
+a.button, button {
+	font-size: 12px;
+	font-family: 'helveticaPecaa', Arial, sans-serif;
 	line-height: 12px;
 	padding: 5px 10px 8px;
 	margin-right:10px;
@@ -24,30 +25,28 @@ a.button, button{
 	-moz-box-shadow: 0px 0px 3px #999;
 	-webkit-box-shadow: 0px 0px 3px #999;
 }
-a,
-a:hover,
-a:focus{
+a, a:hover, a:focus {
 	text-decoration: none;
 	color:inherit;
 	cursor: pointer;
 }
-button.primary{
+button.primary {
 	background: -webkit-gradient(linear, left top, left bottom, from(#99cc99), to(#669966));
-	background: -moz-linear-gradient(top,  #99cc99,  #669966);
+	background: -moz-linear-gradient(top, #99cc99, #669966);
 	border:1px solid #336633;
 }
-button.secondary{
+button.secondary {
 	background: -webkit-gradient(linear, left top, left bottom, from(#b5b5b5), to(#999999));
-	background: -moz-linear-gradient(top,  #b5b5b5,  #999999);
+	background: -moz-linear-gradient(top, #b5b5b5, #999999);
 	border:1px solid #666666;
 }
-button.redBtn{
+button.redBtn {
 	background: -webkit-gradient(linear, left top, left bottom, from(#fd6868), to(#dc4f57));
-	background: -moz-linear-gradient(top,  #fd6868,  #dc4f57);
+	background: -moz-linear-gradient(top, #fd6868, #dc4f57);
 	border:1px solid #ff9999;
 	color:#FFFFFF;
 }
-select.graySelect{
+select.graySelect {
 	background:#9E9E9E;
 	color:#FFF;
 	padding:4px;
@@ -55,56 +54,56 @@ select.graySelect{
 	border:1px solid #616161;
 }
 .mainContainer {
-    margin: auto;
-    width: 100%;
+	margin: auto;
+	width: 100%;
 }
 .userEditHolder {
-    margin: auto;
-    width: 1024px;
+	margin: auto;
+	width: 1024px;
 }
-.header-section{
-	/*overflow: hidden;*/
+.header-section {
+/*overflow: hidden;*/
 }
-.header-section .topHeader{
+.header-section .topHeader {
 	background: url("img/bg_topHeader.gif") repeat-x;
 	height: 36px;
 	-moz-box-shadow: 0px 0px 4px #333;
 	-webkit-box-shadow: 0px 0px 4px #333;
 }
-.topHeader .logoHolder{
+.topHeader .logoHolder {
 	display:block;
 	float:left;
 	background: url("img/pecaa_logo.png") no-repeat;
 	width:170px;
 	height:36px;
 }
-.topHeader .rightPanel{
+.topHeader .rightPanel {
 	float:right;
 }
-.rightPanel ul{
+.rightPanel ul {
 	margin:0;
 	padding:0;
 	list-style: none;
 	background:0;
 }
-.rightPanel ul li{
+.rightPanel ul li {
 	display:table-cell;
 	margin:0;
 	padding:0;
 	list-style: none;
 	background:0;
 }
-.rightPanel .help{
+.rightPanel .help {
 	width:98px;
 	height:36px;
 	background: url("img/btn_help.png") no-repeat;
 }
-.rightPanel .myAccount{
+.rightPanel .myAccount {
 	width:166px;
 	height:36px;
 	background: url("img/btn_myAccount.png") no-repeat;
 }
-.rightPanel .logout{
+.rightPanel .logout {
 	width:113px;
 	height:36px;
 	background: url("img/btn_logOut.png") no-repeat;
@@ -113,92 +112,91 @@ select.graySelect{
 	margin: 10px;
 	overflow: hidden;
 }
-.main-nav .navBtns{
+.main-nav .navBtns {
 	float: left;
 }
-.main-nav ul{
+.main-nav ul {
 	margin:0;
 	padding:0;
 	list-style: none;
 	background:0;
 }
-.main-nav ul li{
+.main-nav ul li {
 	display:inline-block;
 	margin:0;
 	padding:0;
 	list-style: none;
 	height: 30px;
 }
-.main-nav ul li.siteInfo{
+.main-nav ul li.siteInfo {
 	background: url(img/btn_siteInfo.png) no-repeat;
 	width: 113px;
 }
-.main-nav ul li.siteInfo.active{
+.main-nav ul li.siteInfo.active {
 	background: url(img/btn_siteInfo_on.png) no-repeat;
 }
-.main-nav ul li.siteInfo.complete{
+.main-nav ul li.siteInfo.complete {
 	background: url(img/btn_siteInfo_done.png) no-repeat;
 }
-
-.main-nav ul li.pages{
+.main-nav ul li.pages {
 	background: url(img/btn_pages.png) no-repeat;
 	width: 100px;
 }
-.main-nav ul li.pages.active{
+.main-nav ul li.pages.active {
 	background: url(img/btn_pages_on.png) no-repeat;
 }
-.main-nav ul li.pages.complete{
+.main-nav ul li.pages.complete {
 	background: url(img/btn_pages_done.png) no-repeat;
 }
-.main-nav ul li.content{
+.main-nav ul li.content {
 	background: url(img/btn_content.png) no-repeat;
 	width: 114px;
 }
-.main-nav ul li.content.active{
+.main-nav ul li.content.active {
 	background: url(img/btn_content_on.png) no-repeat;
 }
-.main-nav ul li.content.complete{
+.main-nav ul li.content.complete {
 	background: url(img/btn_content_done.png) no-repeat;
 }
-.main-nav ul li.theme{
+.main-nav ul li.theme {
 	background: url(img/btn_theme.png) no-repeat;
 	width: 105px;
 }
-.main-nav ul li.theme.active{
+.main-nav ul li.theme.active {
 	background: url(img/btn_theme_on.png) no-repeat;
 }
-.main-nav ul li.theme.complete{
+.main-nav ul li.theme.complete {
 	background: url(img/btn_theme_done.png) no-repeat;
 }
-.main-nav ul li.optional{
+.main-nav ul li.optional {
 	background: url(img/btn_optional.png) no-repeat;
 	width: 119px;
 }
-.main-nav ul li.optional.active{
+.main-nav ul li.optional.active {
 	background: url(img/btn_optional_on.png) no-repeat;
 }
-.main-nav ul li.optional.complete{
+.main-nav ul li.optional.complete {
 	background: url(img/btn_optional_done.png) no-repeat;
 }
-.main-nav ul li.users{
+.main-nav ul li.users {
 	background: url(img/btn_users.png) no-repeat;
 	width: 94px;
 }
-.main-nav ul li.users.active{
+.main-nav ul li.users.active {
 	background: url(img/btn_users_on.png) no-repeat;
 	width: 94px;
 }
-.main-nav ul li.done{
+.main-nav ul li.done {
 	background: url(img/btn_done.png) no-repeat;
 	width: 84px;
 }
-.main-nav ul li.done.active{
+.main-nav ul li.done.active {
 	background: url(img/btn_done_done.png) no-repeat;
 }
-.main-nav .rightBtns{
+.main-nav .rightBtns {
 	float: right;
 }
-.main-nav button.btn_Save{
+.main-nav button.btn_Save {
 	background:url(img/btn_saveAndNext.png)no-repeat;
 	width: 189px;
 	height:30px;
@@ -208,7 +206,7 @@ select.graySelect{
 	text-indent:-9999px;
 	cursor: pointer;
 }
-.main-nav button.btn_SaveAndGo{
+.main-nav button.btn_SaveAndGo {
 	background:url(img/btnSaveGo.png)no-repeat;
 	width: 119px;
 	height:32px;
@@ -217,25 +215,28 @@ select.graySelect{
 	color:#FFF;
 	cursor: pointer;
 	box-shadow: none;
-	padding-right:30px;
+	padding:0 30px 0 5px;
+	font-weight: normal;
 }
-.main-nav button.btn_External{
+.main-nav button.btn_External {
 	background:url(img/btn_External.png)no-repeat;
 	width: 45px;
 	height:30px;
+	padding:0;
 	border:0;
 	color:#FFF;
 	text-indent:-9999px;
 	cursor: pointer;
+	box-shadow: none;
 }
-.content-section{
+.content-section {
 	clear:both;
 	width:100%;
 	min-height:500px;
 	padding: 0 0 0 10px;
 	margin-bottom:20px;
 }
-.themes-board{
+.themes-board {
 	background: url(img/bg_grid.gif) repeat;
 	height:60%;
 	width:1024px;
@@ -243,79 +244,80 @@ select.graySelect{
 	top:290px;
 	border-top:1px solid black;
 }
-.themes-board .grid-board{
+.themes-board .grid-board {
 	background:url(img/bg_gridTop.png) repeat-x;
 	height:8px;
 	margin-top:-8px;
 }
 /* Checkbox customization*/
+
 span.checkbox {
-    background: url("img/checkbox.png") no-repeat scroll 0 0 transparent;
-    clear: left;
-    display: inline-block;
-    float: left;
-    height: 23px;
-    padding: 0 4px 0 0;
-    width: 19px;
-    vertical-align: middle;
-    cursor:pointer;
+	background: url("img/checkbox.png") no-repeat scroll 0 0 transparent;
+	clear: left;
+	display: inline-block;
+	float: left;
+	height: 23px;
+	padding: 0 4px 0 0;
+	width: 19px;
+	vertical-align: middle;
+	cursor:pointer;
 }
 span.radio {
-    background: url("img/radio.png") no-repeat scroll 0 0 transparent;
-    clear: left;
-    display: inline-block;
-    float: left;
-    height: 23px;
-    padding: 0 4px 0 0;
-    width: 19px;
-    vertical-align: middle;
+	background: url("img/radio.png") no-repeat scroll 0 0 transparent;
+	clear: left;
+	display: inline-block;
+	float: left;
+	height: 23px;
+	padding: 0 4px 0 0;
+	width: 19px;
+	vertical-align: middle;
 }
 span.select {
-    background: url("img/select.png") no-repeat scroll 0 0 transparent;
-    color: #FFFFFF;
-    height: 21px;
-    overflow: hidden;
-    padding: 0 24px 0 8px;
-    position: absolute;
-    width: 158px;
+	background: url("img/select.png") no-repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+	height: 21px;
+	overflow: hidden;
+	padding: 0 24px 0 8px;
+	position: absolute;
+	width: 158px;
 }
-
 .left {
-    float: left;
+	float: left;
 }
 .right {
-    float: right;
+	float: right;
 }
 .clear {
-    clear: both;
+	clear: both;
 }
-.taLeft{
+.taLeft {
 	text-align:left;
 }
-.taRight{
+.taRight {
 	text-align: right;
 }
-.taCenter{
+.taCenter {
 	text-align: center;
 }
-.shadows {position: relative; height:100%;}
-.shadows .topShadow,
-.shadows .bottomShadow{
+.shadows {
+	position: relative;
+	height:100%;
+}
+.shadows .topShadow,  .shadows .bottomShadow {
 	position: absolute;
 	width:100%;
 	height:12px;
 	z-index: 1;
 }
-.shadows .topShadow{
+.shadows .topShadow {
 	background: url("img/bg_TableTopShadow.png") repeat-x scroll 0 0 transparent;
 	top:0;
 }
-.shadows .bottomShadow{
+.shadows .bottomShadow {
 	background: url("img/bg_TableBottomShadow.png") repeat-x scroll 0 0 transparent;
 	bottom:0;
 }
-.alert-box,
-.info-box{
+.alert-box,  .info-box {
 	width:240px;
 	min-height:100px;
 	padding:10px;
@@ -324,14 +326,14 @@ span.select {
 	-moz-box-shadow: 0px 1px 6px #333;
 	-webkit-box-shadow: 0px 1px 6px #333;
 	/*background: url(img/bg_grayGrain.gif) repeat;*/
+
 	background: -webkit-gradient(linear, left top, left bottom, from(#bdbdbd), to(#8a8a8a));
-	background: -moz-linear-gradient(top,  #bdbdbd,  #8a8a8a);
+	background: -moz-linear-gradient(top, #bdbdbd, #8a8a8a);
 	position: absolute;
 	left: 40%;
 	top:30%;
 }
-.alert-slider,
-.info-slider{
+.alert-slider,  .info-slider {
 	width:180px;
 	height:45px;
 	padding:10px;
@@ -341,59 +343,69 @@ span.select {
 	-moz-box-shadow: 0px 1px 6px #333;
 	-webkit-box-shadow: 0px 1px 6px #333;
 	/*background: url(img/bg_grayGrain.gif) repeat;*/
+
 	background: -webkit-gradient(linear, left top, left bottom, from(#bdbdbd), to(#8a8a8a));
-	background: -moz-linear-gradient(top,  #bdbdbd,  #8a8a8a);
+	background: -moz-linear-gradient(top, #bdbdbd, #8a8a8a);
 	position: fixed;
 	bottom:0;
 }
-.info-slider{
+.info-slider {
 	left:500px;
 }
-.info-box{
+.info-box {
 	left: 20%;
 }
-.alert-box .msgTitle,
-.info-box .msgTitle,
-.alert-slider .msgTitle,
-.info-slider .msgTitle {
+.alert-box .msgTitle,  .info-box .msgTitle,  .alert-slider .msgTitle,  .info-slider .msgTitle {
 	font-size:26px;
 	padding:5px 35px 10px 0;
 }
-
-.alert-box .msgTitle{
+.alert-box .msgTitle {
 	background:url(img/bg_AlertTitle.png) no-repeat 100% center;
 	color:#ff6666;
 }
-.alert-slider .msgTitle{
+.alert-slider .msgTitle {
 	background:url(img/bg_GreenTickMark.png) no-repeat 100% center;
 	color:#99cc99;
 }
-
-.info-box .msgTitle,
-.info-slider .msgTitle{
+.info-box .msgTitle,  .info-slider .msgTitle {
 	background:url(img/bg_InfoTitle.png) no-repeat 100% center;
 	color:#accce6;
 }
-
-.alert-box .msgContent,
-.info-box .msgContent{
+.alert-box .msgContent,  .info-box .msgContent {
 	font-size:14px;
 	color:#FFF;
 	margin-bottom:20px;
 }
-.msgFooter .secondary{
+.msgFooter .secondary {
 	float: left;
 	margin:0;
 }
-.msgFooter .primary{
+.msgFooter .primary {
 	float: right;
 	margin:0;
 }
-.pickDate{
+.pickDate {
 	background:url(img/bg_DatePicker.png) no-repeat right top #FFF;
 }
-.pickTime{
+.pickTime {
 	background:url(img/bg_TimePicker.png) no-repeat right top #FFF;
 }
-.track { background:#999999; height: 100%; width:12px; position: relative; padding: 0 1px;border-right: 1px solid #333333; border-left: 1px solid #999999;}
-.userSearch span.checkbox{float:none}
+.track {
+	background:#999999;
+	height: 100%;
+	width:12px;
+	position: relative;
+	padding: 0 1px;
+	border-right: 1px solid #333333;
+	border-left: 1px solid #999999;
+}
+.userPanelDevider {
+	background:url(img/userPanelDevider.png) no-repeat center 0 transparent;
+	height:12px;
+	margin-bottom:10px;
+	display:block;
+	clear:both;
+}
+.userSearch span.checkbox {
+	float:none
+}

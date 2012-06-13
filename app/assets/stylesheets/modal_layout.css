@@ -66,7 +66,7 @@ button.blueBtn{
 }
 .main-container{
 	width: 980px;
-	font-family: 'helveticaPecaa', Arial, sans-serif;
+	font-family: 'helveticaPecaa';
 	font-size:13px;
 	color:#333;
 }
@@ -103,7 +103,6 @@ button.blueBtn{
 
 .main-container.imgPicker .main-content{
 	background: #999999 !important;
-	
 }
 
 .header .helpIcon{

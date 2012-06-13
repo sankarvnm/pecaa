@@ -3,15 +3,7 @@
 
 /* sankar buttons*/
 
-/*.main-nav ul li.payments{
-	background: url(img/btn_payments.png) no-repeat;
-	width: 120px;
-}
 
-.main-nav ul li.payments.active{
-	background: url(img/btn_payments_on.png) no-repeat;
-	width: 120px;
-}
 .upstypeDiv{
 	display:block;
 	width:500px;
@@ -23,53 +15,7 @@
 	float:left;
 }
 
-.main-nav ul li.taxes{
-	background: url(img/btn_taxes.png) no-repeat;
-	width: 93px;
-}
 
-.main-nav ul li.taxes.active{
-	background: url(img/btn_taxes_on.png) no-repeat;
-	width: 93px;
-}
-.main-nav ul li.shipping{
-	background: url(img/btn_shipping.png) no-repeat;
-	width: 114px;
-}
-
-.main-nav ul li.shipping.active{
-	background: url(img/btn_shipping_on.png) no-repeat;
-	width: 114px;
-}
-
-.main-nav ul li.features{
-	background: url(img/btn_features.png) no-repeat;
-	width: 115px;
-}
-
-.main-nav ul li.features.active{
-	background: url(img/btn_features_on.png) no-repeat;
-	width: 115px;
-}
-
-.main-nav ul li.orders{
-	background: url(img/btn_orders.png) no-repeat;
-	width: 101px;
-}
-.main-nav ul li.orders.active{
-	background: url(img/btn_orders_on.png) no-repeat;
-	width: 101px;
-}
-
-.main-nav ul li.reports{
-	background: url(img/btn_reports.png) no-repeat;
-	width: 100px;
-}
-.main-nav ul li.reports.active{
-	background: url(img/btn_reports_on.png) no-repeat;
-	width: 100px;
-}
-*/
 .cartBg{
 	clear:both;
 	width:95%;
@@ -188,7 +134,7 @@
 }
 .rowDiv2 dd{
 	color:#666;	
-}t
+}
 
 .rowDiv2 dt,dd{
 	float:left;
@@ -726,7 +672,7 @@ img{
 	opacity:0.4;
 	filter:alpha(opacity=40);	
 }
-.popWindow {
+.popWindowCart1 {
     background-image: url("img/popWindow_2.png");
     border: 1px solid #5C5E5F;
     border-radius: 6px 6px 6px 6px;
@@ -735,7 +681,7 @@ img{
     position: relative;
     width: 550px;
 }
-.popWindow .midSection {
+.popWindowCart1 .midSection {
     background-color: #FFFFFF;
     box-shadow: 0 0 3px #999999 inset;
     float: left;
@@ -743,14 +689,14 @@ img{
     padding: 8px;
     width: 94%;
 }
-.popWindow .footSection {
+.popWindowCart1 .footSection {
     bottom: 0;
     float: left;
     padding: 10px;
     position: absolute;
     width: 96%;
 }
-.popWindow h2 {
+.popWindowCart1 h2 {
     color: #FFFFFF;
     float: left;
     margin: 10px 0 0 10px;
@@ -815,7 +761,7 @@ img{
     background-image: url("img/pOptionsleftBg.png");
     float: left;
     height: 138px;
-    width: 320px;
+    width: 390px;
 	 border-bottom-left-radius: 6px;
     border-top-left-radius: 6px;
 }
@@ -902,7 +848,7 @@ margin-left:0;
 	float:right;
 }
 .CartOptions .cartGrid{
-    float: right;
+    float: left;
     width: 570px;
 }
 .CartOptions .site-users .userGridHeader {
@@ -926,7 +872,7 @@ margin-left:0;
 .cartCollumsBottom .site-users ul.ConLibra li span.cName {
     padding-left: 10px;
     text-align: left;
-    width:160px;
+    width:150px;
 	height:20px;
 	border-right: 1px solid #999999;
 	height: 19px;
@@ -958,4 +904,25 @@ margin-left:0;
 
 .nobMargin{
 	margin-bottom:0px  !important	
+}
+
+
+.noEdit1 {
+    background-color: #ADB5BE;
+    border: 1px solid #999999;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    padding: 2px;
+    width: 40px;
+}
+
+.inputWidth{
+
+
+width:50px;
+
+}
+
+.vewportHeigth{
+height:95px;	
 }
